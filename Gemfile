@@ -5,3 +5,4 @@
  gem 'xcpretty'
  gem 'slack-notifier'
  gem 'fastlane'
+ gem 'danger'
