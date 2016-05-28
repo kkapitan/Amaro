@@ -418,9 +418,9 @@ class Bootstrapper
     REPLACEMENT_ORGANIZATION = 'Crush & Lovely'
     REPLACEMENT_DOMAIN = 'com.crushlovely'
 
-    BOOTSTRAP_REPO = 'https://github.com/crushlovely/Amaro.git'
+    BOOTSTRAP_REPO = 'https://github.com/kkapitan/Amaro.git'
     DEFAULT_BOOTSTRAP_BRANCH = 'master'
-    BOOTSTRAP_WEBSITE = 'https://github.com/crushlovely/Amaro'
+    BOOTSTRAP_WEBSITE = 'https://github.com/kkapitan/Amaro'
 
     attr_accessor :options
 
