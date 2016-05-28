@@ -4,35 +4,18 @@ platform :ios, '8.0'
 # Uncomment this line if you need Swift support:
 # use_frameworks!
 
-
-# Crush Utility Belt
-pod 'Sidecar', '~> 1.0'
-
-# Logging & Analytics
-pod 'CocoaLumberjack', '~> 2.0'
-
 # Networking
 pod 'AFNetworking'
 
-# Various goodies
-pod 'libextobjc'       # Useful macros and some craziness
-pod 'Asterism'         # Nice & fast collection operations
-
 # You may want...
-#pod 'FormatterKit'    # For all your string formatting needs
-#pod 'PromiseKit'      # Promises/A+-alike
-#pod 'Mantle'          # Github's model framework
-#pod 'SSKeychain'      # Go-to keychain wrapper
-#pod 'DateTools'       # Datetime heavy lifting
-#pod 'Masonry'         # Convenient autolayout DSL
-#pod 'Reveal-iOS-SDK', :configurations => ['Debug_Staging', 'Debug_Production']
+pod 'FormatterKit'    # For all your string formatting needs
+pod 'Mantle'          # Github's model framework
 
 # Testing necessities
 target 'Specs' do
   pod 'Specta'
   pod 'Expecta'
 end
-
 
 # Inform CocoaPods that we use some custom build configurations
 # Leave this in place unless you've tweaked the project's targets and configurations.
