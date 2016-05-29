@@ -6,24 +6,8 @@
 //  Copyright (c) 2014 Crush & Lovely. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-
-    #import "CrushBootstrap-Environment.h"
-
-    #if HAS_POD(CocoaLumberjack)
-        #import <CocoaLumberjack/CocoaLumberjack.h>
-        static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
-    #endif
-
-    #if HAS_POD(Specta)
-        #import <Specta/Specta.h>
-
-        #if HAS_POD(Expecta)
-            #define EXP_SHORTHAND
-            #import <Expecta/Expecta.h>
-        #endif
-    #endif
-#endif
+#import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
