@@ -1,15 +1,21 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
+project 'CrushBootstrap'
 
 # Uncomment this line if you need Swift support:
 # use_frameworks!
 
-# Networking
-pod 'AFNetworking'
+target 'CrushBootstrap' do
+  
+  # Networking
+  pod 'AFNetworking', '~>2.5'
 
-# You may want...
-pod 'FormatterKit'    # For all your string formatting needs
-pod 'Mantle'          # Github's model framework
+  # You may want...
+  pod 'FormatterKit'    # For all your string formatting needs
+  pod 'Mantle'          # Github's model framework
+
+
+end
 
 # Testing necessities
 target 'Specs' do
